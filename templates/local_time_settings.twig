@@ -1,0 +1,11 @@
+<div class="widget_local_time_settings">
+    <p>Выберите рабочее время:</p>
+    <div class="widget_local_time_inputs_container">
+        <div class="widget_local_time_start_time_block">
+            {% include '/intr/local_time/localTimeTimeInput.twig' with {inputValue: timeStart, id: 'widget_local_time_start_time_input'} %}
+        </div>
+        <div class="widget_local_time_end_time_block">
+            {% include '/intr/local_time/localTimeTimeInput.twig' with {inputValue: timeEnd,  id: 'widget_local_time_end_time_input'} %}
+        </div>
+    </div>
+</div>

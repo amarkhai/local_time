@@ -1,0 +1,37 @@
+div.widget_local_time_time {
+    right: 0;
+    top: 5px;
+    position: absolute;
+}
+
+.widget_local_time_settings{
+    height: 40px;
+    margin-bottom: 35px;
+}
+.widget_local_time_inputs_container{
+    margin-top: 9px;
+}
+
+.widget_local_time_end_time_block {
+    margin-left: 95px;
+}
+
+.widget_local_time_not_working_time {
+    color: red;
+}
+
+.widget_local_time_working_time_amo {
+    color: #d6d6d6;
+}
+
+.widget_local_time_working_time {
+    color: black;
+}
+
+.widget_local_time_input {
+    cursor: pointer;
+}
+
+.widget_local_time_div_for_input {
+    margin-left: 0;
+}
